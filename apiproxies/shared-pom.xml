@@ -102,7 +102,7 @@
                 <options>validate</options>  <!-- default org, replace with dafault org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <apigee.profile>lab</apigee.profile>
                 <apigee.env>lab</apigee.env>
-                <apigee.hosturl>http://10.131.248.231:9000</apigee.hosturl>
+                <apigee.hosturl>${hostURL}</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.org>${org}</apigee.org>
                 <apigee.username>${username}</apigee.username>
