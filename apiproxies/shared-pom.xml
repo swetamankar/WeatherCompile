@@ -96,13 +96,13 @@
 <!-- This is where you add the environment specific properties under various profile names -->		
  <profiles>
         <profile>
-            <id>test</id>
+            <id>lab</id>
             <properties>
-                <org>swetamankar-eval</org>  <!-- default org, replace with dafault org to avoid passing parameter e.g. -Dorg testmyapi -->
+                <org>fiserv</org>  <!-- default org, replace with dafault org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options>  <!-- default org, replace with dafault org to avoid passing parameter e.g. -Dorg testmyapi -->
-                <apigee.profile>test</apigee.profile>
-                <apigee.env>test</apigee.env>
-                <apigee.hosturl>https://swetamankar-eval-test.apigee.net</apigee.hosturl>
+                <apigee.profile>lab</apigee.profile>
+                <apigee.env>lab</apigee.env>
+                <apigee.hosturl>http://10.131.248.231:9000</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.org>${org}</apigee.org>
                 <apigee.username>${username}</apigee.username>
